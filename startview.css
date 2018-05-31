@@ -1,7 +1,7 @@
 .signup{
   display: inline-grid;
 }
-.signup_body{
+.signup_body, .login_body, .startview_body{
   position: absolute;
   top:30%;
   left:50%;
