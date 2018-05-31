@@ -13,7 +13,7 @@ ul{
   text-align: center;
   list-style-type: none;
   float: right;
-  border: 5px solid black;
+  border: 5px solid rgb(231,117,114);
   padding: 10px;
 
 }
@@ -34,14 +34,14 @@ li{
 }
 .profile{
   padding: 1%;
-  border: 5px solid black;
+  border: 5px solid rgb(231,117,114);
   width: 18%;
   height: 600px;
   float: left;
 }
 .content{
   padding: 1%;
-  border: 5px solid black;
+  border: 5px solid rgb(231,117,114);
   width: 75%;
   height: 600px;
   float: right;
@@ -53,8 +53,18 @@ li{
   width: 95%;
   margin: 10px;
 }
-.profile_color{
+.profile_music{
   width: 100%;
   height: 45%;
+  background-color: black;
+}
+.content_graph{
+  width: 100%;
+  height: 50%;
+  background-color: black;
+}
+.content_color{
+  width: 100%;
+  height: 32%;
   background-color: black;
 }
