@@ -1,0 +1,52 @@
+
+#main_img{
+  height: 100px;
+  width: auto;
+}
+#menu_view{
+  width: 95%;
+  height: 30px;
+  margin: 10px;
+}
+ul{
+  width: inherit;
+  text-align: center;
+  list-style-type: none;
+  float: right;
+  border: 5px solid black;
+  padding: 10px;
+
+}
+#first_menu{
+  float: left;
+  margin-left: 10%;
+}
+#second_menu{
+  float: left;
+  margin-left: 30%;
+}
+#third_menu{
+  float: right;
+  margin-right: 10%;
+}
+li{
+  display: inline;
+}
+.profile{
+  margin: 20px;
+  border: 5px solid black;
+  width: 20%;
+  height: 600px;
+  float: left;
+}
+.content{
+  margin: 20px 0px 20px 20px;
+  border: 5px solid black;
+  width: 70%;
+  height: 600px;
+  float: right;
+}
+.main_board{
+  width: 95%;
+    margin: 10px;
+}
