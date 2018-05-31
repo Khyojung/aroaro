@@ -53,18 +53,34 @@ li{
   width: 95%;
   margin: 10px;
 }
-.profile_music{
+.profile_color{
   width: 100%;
-  height: 45%;
-  background-color: black;
+  height: 31%;
+  background-color: rgb(231,117,114);
 }
 .content_graph{
   width: 100%;
-  height: 50%;
-  background-color: black;
+  height: 90%;
+  background-color: rgb(231,117,114);
 }
-.content_color{
+.content_music{
   width: 100%;
-  height: 32%;
-  background-color: black;
+  height: 90%;
+  background-color: rgb(231,117,114);
+}
+.logout{
+    margin: 10px;
+    float: right;
+    margin-right: 4.5%;
+}
+.content_1{
+  margin-right: 2%;
+  width: 68%;
+  height: 100%;
+  float: left;
+}
+.content_2{
+  width: 30%;
+  height: 100%;
+  float: right;
 }
