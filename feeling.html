@@ -2,7 +2,7 @@
 <html>
 	<head>
     <link rel="stylesheet" type="text/css" href="mainmenu.css">
-		<script type = "text/javascript" src = "startview.js"></script>
+		<script type = "text/javascript" src = "feeling.js"></script>
 	</head>
 	<body>
 			<a href="./mainmenu.html"><img id="main_img"src="logo.png" alt="logo" style="margin: 0 42.5%" ></a><br>
@@ -18,13 +18,29 @@
           <div class="profile">
             <img id="profile_img" src="profile.png" alt="profile_img">
             <p>NAME</p>
-            <p>TODAY'S MUSIC</p>
-            <iframe class="profile_music" src="https://www.youtube.com/watch?v=xRbPAVnqtcs">
+              <p>TODAY'S COLOR</p>
+              <div class="profile_color" >
 
-            </iframe>
+              </div>
           </div>
           <div class="content">
-              
+						<p>지금 이순간 당신은?</p>
+						<form class="" action="index.html" method="post">
+							<div class="feel">
+								<p>기분</p>
+								<select class="select_feel" name="select_feel">
+									<option value="temp">temp</option>
+								</select>
+              </div>
+							<div class="situation">
+								<p>상황</p>
+								<select class="select_feel" name="select_feel">
+									<option value="temp">temp</option>
+								</select>
+							</div>
+							<button type="submit" name="button" onclick = "formSubmit()">제출</button>
+						</form>
+
 
             </div>
           </div>
